@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>To Do List</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Sanchez" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-body">
+            <div class="wrapper">
+                <span id=" head">New Task</span><br>
+                <input id="inpNewTask" placeholder="Task title ">
+                <button type="button" class="btn btn-primary" onclick="addTask()">ADD</button>
+                <button type="button" class="btn btn-danger" onclick="removeTask()">CLEAR</button>
+                <small id="emailHelp" class="form-text text-muted">Describe an upcoming task</small>
+                <br>
+            </div>
+            <div>
+                <ul id="ulTaskList" class="list-group">
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

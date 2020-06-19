@@ -1,0 +1,30 @@
+html {
+    padding: 0 1em;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    padding-top: 5%;
+    padding-left: 20%;
+}
+
+#ulTaskList {
+    width: 640px;
+}
+
+input {
+    width: 500px;
+    letter-spacing: 2px;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.checked {
+    text-decoration: line-through;
+}
