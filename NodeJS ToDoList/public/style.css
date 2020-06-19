@@ -1,0 +1,22 @@
+#ulTasks li.done {
+    color: #6c757d;
+    text-decoration: line-through;
+}
+
+.buttonscls {
+    position: relative;
+    nav-down: 50px;
+}
+
+.m-2 {
+    border: 0px;
+}
+
+.notes {
+    width: 80%;
+    padding-left: 10%;
+}
+
+.form-control {
+    width: 50%;
+}
